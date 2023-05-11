@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+{{ flatpage.content }}
+{{ flatpage.content }}
+    <hr>
+    <p><em><img src="https://www.prepressure.com/images/lorem-ipsum-filler-text.png" alt="" width="480" height="394" /></em></p>
+{% endblock content %}
